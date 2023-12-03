@@ -36,7 +36,7 @@ const ChatWindow = (channel) => {
     const scrollRef = useRef(null);
 
     const socketUrl = channelId
-        ? `ws://www.webcord.site/${serverId}/${channelId}`
+        ? `wss://www.webcord.site/${serverId}/${channelId}`
         : null;
 
 
