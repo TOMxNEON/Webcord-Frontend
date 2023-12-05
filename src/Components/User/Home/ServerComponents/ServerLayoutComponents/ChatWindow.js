@@ -207,7 +207,7 @@ const ChatWindow = (channel) => {
                                     <ListItemAvatar>
                                         <Avatar
                                             alt={msg.sender.display_name}
-                                            src={`${process.env.REACT_APP_API_URL}${msg.sender.avatar}`}
+                                            src={`${msg.sender.avatar}`}
                                         />
                                     </ListItemAvatar>
                                     <ListItemText
