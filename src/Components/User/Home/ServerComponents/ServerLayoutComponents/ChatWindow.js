@@ -206,7 +206,6 @@ const ChatWindow = (channel) => {
                                 <ListItem alignItems="flex-start">
                                     <ListItemAvatar>
                                         <Avatar
-                                            alt={msg.sender.display_name}
                                             src={`${msg.sender.avatar}`}
                                         />
                                     </ListItemAvatar>
